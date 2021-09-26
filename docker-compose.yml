@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  voicevox:
+    image: hiroshiba/voicevox_engine:cpu-latest
+    ports:
+      - "127.0.0.1:50021:50021"
